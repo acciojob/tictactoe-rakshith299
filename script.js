@@ -90,7 +90,7 @@ button.addEventListener("click", function(){
 			if(received === true){
 				winnerFound = true;
 				
-				message.innerText = `${currentPlayer == player1? player2: player1}, congratulations you won!`;
+				message.innerText = `${currentPlayer == player1? player2: player1} congratulations you won!`;
 			}
 		});
 
