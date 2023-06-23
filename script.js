@@ -6,8 +6,8 @@ const boardGame = document.getElementById("board-game");
 const firstCont = document.querySelector(".first-cont");
 const secondCont = document.querySelector(".second-cont");
 
-const player1Sign = 'X';
-const player2Sign = 'O';
+const player1Sign = 'x';
+const player2Sign = 'o';
 
 let winnerFound = false;
 
